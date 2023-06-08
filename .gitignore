@@ -1,0 +1,11 @@
+# logs/
+# .idea/
+# Learn Java.iml
+# out/
+
+# src/
+# *.class
+# *.log
+# *.iml
+# *.project
+# *.classpath
