@@ -17,10 +17,13 @@ public class Strings {
         System.out.println(newStringValue.startsWith("H")); // Output: false => Starting letter is empty space
         System.out.println(newStringValue.startsWith(" ")); // Output: true => Starting letter is empty space
         System.out.println(newStringValue.endsWith("!")); // Output: true => Ends with '!'
-/*
+
+//        Constants in JAVA.
         final int constNumber = 431231; // 'final' => keyword used to declare constants.
         System.out.println(constNumber); // Output: 431231
+//        These values cannot be changed once declared.
+//        If tried, would cause an error.
 
- */
+
     }
 }
