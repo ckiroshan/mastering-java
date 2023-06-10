@@ -40,10 +40,12 @@ public class ArraysType {
         char[] newChars = chars.clone(); // Will clone 'chars' array to 'newChars' array
         System.out.println(Arrays.toString(newChars));
 
-        /*
 //        Multi-dimensional Arrays
         int[][] newArray = {{123, 31}, {2, 412}};
         int[][][] newArray2 = {{{123, 31}}, {{2, 412}}};
-        */
+
+        System.out.println(Arrays.deepToString(newArray));
+        System.out.println(Arrays.deepToString(newArray2));
+
     }
 }
