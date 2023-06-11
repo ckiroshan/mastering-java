@@ -39,5 +39,11 @@ public class SwitchStatements {
                 System.out.println("Hey " + name + "! We couldn't find your name on our system :(");
         }
 
+//        A simpler method of a switch statement.
+        switch (name) {
+            case "Bryan", "Kane", "Hunter", "Shawn", "Kaushik", "Iroshan" -> System.out.println("Hi, " + name);
+            default -> System.out.println("Sorry, your name is not in the system");
+        }
+        
     }
 }
