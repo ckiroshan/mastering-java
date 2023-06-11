@@ -3,10 +3,7 @@ package com.javabasics;
 public class LoopStatementsEX {
 
     public static void main(String[] args) {
-//        Write code here
-
-        System.out.println("Kaushik Iroshan - Software Engineer");
-
+        
 //        For Loops
 
 //      (     starting point; When it should End; How many x it loops;    )
