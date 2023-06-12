@@ -1,9 +1,9 @@
-# Java from Basics to Advanced concepts
+# JAVA from Basics to Advanced concepts
 
 The Repo is about the basics of JAVA from beginner to advance level concepts that I used to learn and improve my JAVA programming knowledge & skills. There will be a total of 3 sections (packages) consisting of,
 1. JAVA Basics
 2. Adavanced JAVA
-3. JAVA Excercises
+3. JAVA Exercises
 
 Each package consists following concepts & more.
 
