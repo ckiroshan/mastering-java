@@ -24,6 +24,13 @@ public class JavaCalculator {
         symbol = input.nextLine(); //This line used to skip the first next line operation.
         symbol = input.nextLine();
 
+        switch (symbol) {
+            case "+" -> System.out.println(number1 + " + " + number2 + " = " + (number1 + number2));
+            case "-" -> System.out.println(number1 + " - " + number2 + " = " + (number1 - number2));
+            case "*" -> System.out.println(number1 + " * " + number2 + " = " + (number1 * number2));
+            case "/" -> System.out.println(number1 + " / " + number2 + " = " + (number1 / number2));
+            default -> System.out.println("Error!");
+        }
 
     }
 }
