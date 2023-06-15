@@ -10,6 +10,12 @@ public class JavaCalculator {
 //        Takes 2 numbers. based on user's chosen assignment operator
 //        Make changes to the numbers.
 
+        int number1;
+        int number2;
+        String symbol;
+
+        Scanner input = new Scanner(System.in);
+
 
     }
 }
