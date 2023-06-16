@@ -29,6 +29,7 @@ public class JavaCalculator {
             case "-" -> System.out.println(number1 + " - " + number2 + " = " + (number1 - number2));
             case "*" -> System.out.println(number1 + " * " + number2 + " = " + (number1 * number2));
             case "/" -> System.out.println(number1 + " / " + number2 + " = " + (number1 / number2));
+            case "%" -> System.out.println(number1 + " % " + number2 + " = " + (number1 % number2));
             default -> System.out.println("Error!");
         }
 
