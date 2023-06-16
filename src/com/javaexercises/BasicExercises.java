@@ -67,7 +67,7 @@ public class BasicExercises {
             Input second number: 5
             Expected Output :
             25 x 5 = 125
-         */
+
 
         int firstNumber;
         int secondNumber;
@@ -79,5 +79,23 @@ public class BasicExercises {
         secondNumber = input.nextInt();
 
         System.out.println(firstNumber + " x " + secondNumber + " = " + (firstNumber * secondNumber));
+
+         */
+
+//        Bonus - Create a "while" loop for song on repeat mode.
+
+        Scanner input = new Scanner(System.in);
+        boolean isOnRepeat = true;
+
+        while (isOnRepeat) {
+            System.out.println("Playing current song!");
+            System.out.println("Do you want to play next song? say yes");
+            String userInput = input.nextLine();
+
+            if (userInput.equals("yes")) {
+                isOnRepeat = false;
+            }
+        }
+        System.out.println("Playing next song!");
     }
 }
