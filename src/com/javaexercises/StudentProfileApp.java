@@ -7,11 +7,11 @@ class StudentProfile {
     int ExpectedYearToGraduate;
     double GPA;
 
-    StudentProfile(String firstName,
-                   String lastName,
-                   int ExpectedYearToGraduate,
-                   double GPA,
-                   String DeclaredMajor) {
+    public StudentProfile(String firstName,
+                          String lastName,
+                          int ExpectedYearToGraduate,
+                          double GPA,
+                          String DeclaredMajor) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.ExpectedYearToGraduate = ExpectedYearToGraduate;
@@ -19,8 +19,8 @@ class StudentProfile {
         this.DeclaredMajor = DeclaredMajor;
     }
 
-    public int graduationIncrease() {
-        return ExpectedYearToGraduate++;
+    public void graduationIncrease() {
+        this.ExpectedYearToGraduate++;
     }
 }
 
