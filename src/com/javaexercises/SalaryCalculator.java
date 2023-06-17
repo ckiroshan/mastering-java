@@ -4,11 +4,15 @@ import java.util.Scanner;
 
 public class SalaryCalculator {
 
-    public static double calculateEmployeeSalary(double hoursPerDay, double DaysWorked, double paymentPerHour) {
+    public static double calculateEmployeeSalary(double hoursPerDay, double DaysWorked, double paymentPerHour, double vacationDays) {
         double hoursPerWeek = hoursPerDay * DaysWorked;
         System.out.println("Hours worked per week: " + hoursPerWeek);
         double grossSalary = (hoursPerWeek * paymentPerHour) * 52;
-        return grossSalary;
+        System.out.println("Vacation days taken per year: " + vacationDays);
+        double unpaidLeaves = vacationDays * (8 * paymentPerHour);
+        System.out.println("Yearly Gross salary : $" + grossSalary);
+        System.out.println("Vacation days payment reduction: $" + unpaidLeaves);
+        return grossSalary - unpaidLeaves;
     }
 
     public static void main(String[] args) {
@@ -32,6 +36,8 @@ public class SalaryCalculator {
         double workingDays = input.nextDouble();
         System.out.println("How much do you make per hour?");
         double earnedPerHour = input.nextDouble();
-        System.out.println("Your yearly gross salary: $" + calculateEmployeeSalary(workingHours, workingDays, earnedPerHour));
+        System.out.println("How many vacation days did you take?");
+        double vacationsPerYear = input.nextDouble();
+        System.out.println("Your yearly gross salary: $" + calculateEmployeeSalary(workingHours, workingDays, earnedPerHour, vacationsPerYear));
     }
 }
