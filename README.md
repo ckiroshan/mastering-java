@@ -1,28 +1,28 @@
-# JAVA from Basics to Advanced concepts
+# Java from Basics to Advanced Concepts
 
-The Repo is about the basics of JAVA from beginner to advance level concepts that I used to learn and improve my JAVA programming knowledge & skills. There will be a total of 3 sections (packages) consisting of,
-1. JAVA Basics
-2. Adavanced JAVA
-3. JAVA Exercises
+The Repo is about the basics of Java from beginner to advance level concepts that I used to learn and improve my Java programming knowledge & skills. There will be a total of 3 sections (packages) consisting of,
+1. Java Basics
+2. Advanced Java
+3. Java Exercises
 
 Each package consists following concepts & more.
 
-## JAVA Basics
+## Java Basics
 - Basic Fundamentals
 - Data types, control flow, clean coding
 - Variables, numbers, strings, arrays, loops
 - Casting, reading inputs, error handling
 
-## Adavanced JAVA
-- Access modifiers, Class, Objects, Methods, Constructors
+## Advanced Java
+- Access modifiers, Classes, Objects, Methods, Constructors
 - OOP - Polymorphism, Inheritance, abstract, encapsulation
 - this, super, annotations, wrapper class, import
 - Interface, Method overload & Overrride, Package
 - Exception handling, Var args, Lamda, Ambiquity, Dynamic method dispatch
-- Thread concepts - Multi threading, Multi processing, server servlet.
+- Thread concepts - Multithreading, Multiprocessing, server servlet.
 
-## JAVA Excercises
-- JAVA Basics
-- More coming soon..
+## Java Exercises
+- Java Basics
+- More coming soon...
 
 ![preview img](/preview.jpg)
