@@ -8,10 +8,18 @@ public class TemperatureConverter {
         System.out.println();
 
 //      Declaring value variables.
-        double fahrenheit;
-        double celsius;
+        int fahrenheit;
+        int celsius;
         Scanner input = new Scanner(System.in);
 
+//      Get the user's input.
+        System.out.println("Enter temperature in Fahrenheit");
+        fahrenheit = input.nextInt();
+
+//      Convert the temperature to Celsius.
+        celsius = (fahrenheit - 32) * 5 / 9;
+
+//      Print the converted temperature.
 
 
     }
