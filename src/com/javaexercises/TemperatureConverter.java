@@ -20,6 +20,7 @@ public class TemperatureConverter {
         celsius = (fahrenheit - 32) * 5 / 9;
 
 //      Print the converted temperature.
+        System.out.println(fahrenheit + "F° in Celsius: " + celsius + "C°");
 
 
     }
