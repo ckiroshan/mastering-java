@@ -6,7 +6,7 @@ public class RandomNameGenerator {
     public static void main(String[] args) {
         System.out.println("RandomNameGenerator");
 
-        String Name[] = {"Kane", "Blake", "Richard", "Micheal"};
+        String[] Name = {"Kane", "Blake", "Richard", "Micheal"};
         Scanner input = new Scanner(System.in);
 
         System.out.println("Here's a random name:");
