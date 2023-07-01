@@ -2,10 +2,10 @@ logs/
 .idea/
 Learn Java.iml
 out/
+*.iml
 
 # src/
 # *.class
 # *.log
-# *.iml
 # *.project
 # *.classpath
