@@ -47,5 +47,22 @@ public class ArraysType {
         System.out.println(Arrays.deepToString(newArray));
         System.out.println(Arrays.deepToString(newArray2));
 
+        // Default way of declaring array
+        int[] stepCounts = {21, 32, 45, 25, 21, 1};
+        System.out.println("stepCounts = " + Arrays.toString(stepCounts));
+        stepCounts[stepCounts.length - 1] = 99;
+        System.out.println("stepCounts = " + Arrays.toString(stepCounts));
+        System.out.println();
+
+        // Reference Array (Object initialization)
+        String[] names = new String[4];
+        names[1] = "Kane";
+        System.out.println("names = " + Arrays.toString(names));
+        // Output: names = [null, Kane, null, null]
+
+        int[] commonAges = new int[5];
+        commonAges[3] = 23;
+        System.out.println("Common Ages = " + Arrays.toString(commonAges));
+        // Output: Common Ages = [0, 0, 0, 23, 0]
     }
 }
