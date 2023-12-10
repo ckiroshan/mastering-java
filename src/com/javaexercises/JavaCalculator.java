@@ -21,7 +21,7 @@ public class JavaCalculator {
         System.out.println("Enter a value for Number 02: ");
         number2 = input.nextInt();
         System.out.println("Select the correct operator symbol: + - * /");
-        symbol = input.nextLine(); //This line used to skip the first next line operation.
+        input.nextLine(); //Skips the first next line operation. (clears the scanner)
         symbol = input.nextLine();
 
         switch (symbol) {
