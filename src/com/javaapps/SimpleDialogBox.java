@@ -12,8 +12,8 @@ public class SimpleDialogBox {
         int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your Age")); // Fetch Age
         JOptionPane.showMessageDialog(null, "You are " + age + " years old!"); // Display Age
 
-        double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height in 'cm'")); // Fetch Age
-        JOptionPane.showMessageDialog(null, "You are " + height + "'cm' tall!"); // Display Name
+        double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height in 'cm'")); // Fetch Height
+        JOptionPane.showMessageDialog(null, "You are " + height + "'cm' tall!"); // Display Height
 
     }
 }
