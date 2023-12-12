@@ -64,5 +64,35 @@ public class ArraysType {
         commonAges[3] = 23;
         System.out.println("Common Ages = " + Arrays.toString(commonAges));
         // Output: Common Ages = [0, 0, 0, 23, 0]
+
+        // Multi-dimensional array example
+
+        String[][] cars = {{"Camaro", "Corvette", "Lancer"},
+                {"Mustang", "Defender", "Ranger"},
+                {"Ferrari", "Lamborghini", "Tesla"}
+        };
+
+        for (int i = 0; i < cars.length; i++) {
+            System.out.println();
+            for (int j = 0; j < cars[i].length; j++) {
+                System.out.print(cars[i][j] + " ");
+            }
+        }
+        System.out.println();
+
+        String[][] fruitBasket = {
+                {"Apple", "Banana", "Orange"},
+                {"Grapes", "Pineapple", "Mango"},
+                {"Strawberry", "Watermelon", "Kiwi"}
+        };
+
+        for (String[] fruits : fruitBasket) {
+            System.out.println();
+            for (String fruit : fruits) {
+                System.out.print(fruit + " ");
+            }
+        }
+        System.out.println();
+
     }
 }
