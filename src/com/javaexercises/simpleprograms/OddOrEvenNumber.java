@@ -9,9 +9,12 @@ public class OddOrEvenNumber {
 
         Scanner input = new Scanner(System.in);
         int number;
-        System.out.print("Enter a value : ");
-        number = input.nextInt();
 
+        do {
+            System.out.print("Enter a value : ");
+            number = input.nextInt();
+        }
+        while (number < 1);
         if (number % 2 == 0) {
             System.out.println("Even Number");
         } else if (number == 1) {
@@ -19,5 +22,6 @@ public class OddOrEvenNumber {
         } else {
             System.out.println("Odd Number");
         }
+
     }
 }
