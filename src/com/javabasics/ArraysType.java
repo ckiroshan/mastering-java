@@ -20,7 +20,8 @@ public class ArraysType {
         String result = Arrays.toString(numbers);
         System.out.println(result);
         System.out.println(Arrays.toString(numbers)); // Array becomes string and then printed: [153, 12, 13, 14, 15]
-        System.out.println(Arrays.toString(numbers).getClass().getSimpleName()); // Get type of variable: String
+        System.out.println(Arrays.toString(numbers).getClass().getSimpleName()); // Get type of Array after conversion: String
+        System.out.println(numbers.getClass().getSimpleName()); // Get type of Array: Int
         System.out.println("Number at Index 0: " + numbers[0]); // to print a specific index: Number at Index 0: 153
         System.out.println("Number at Index 1: " + numbers[1]);
         System.out.println("Number at Index 2: " + numbers[2]);
