@@ -1,6 +1,7 @@
 package com.javabasics;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class ArraysType {
     public static void main(String[] args) {
@@ -94,6 +95,26 @@ public class ArraysType {
             }
         }
         System.out.println();
+        System.out.println();
+
+        Scanner input = new Scanner(System.in);
+        int[][] newArray3 = new int[3][3];
+        System.out.println(newArray3.length);
+
+        // Input
+        System.out.print("Enter values for the array: ");
+        for (int row = 0; row < newArray3.length; row++) {
+            // For each row
+            for (int column = 0; column < newArray3[row].length; column++) {
+                newArray3[row][column] = input.nextInt();
+            }
+        }
+
+        // Output
+        for (int[] number : newArray3) {
+            System.out.println(Arrays.toString(number));
+        }
+        System.out.print('\n');
 
     }
 }
