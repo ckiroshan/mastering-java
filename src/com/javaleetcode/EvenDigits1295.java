@@ -9,7 +9,7 @@ public class EvenDigits1295 {
         int[] testArray2 = {555, 901, 482, 1771};
         System.out.println(findNumbers(testArray));
         System.out.println(findNumbers(testArray2));
-        System.out.println(digits(0));
+        System.out.println(digits(12310));
 
     }
 
@@ -30,22 +30,13 @@ public class EvenDigits1295 {
     }
 
     static int digits(int num) {
-        // Account for negative numbers
         if (num < 0) {
             num = num * -1;
         }
-
-        // Check for 0 digits
         if (num == 0) {
             return 1;
         }
-
-        int count = 0;
-        while (num > 0) {
-            count++;
-            num = num / 10;
-
-        }
-        return count;
+        return (int) (Math.log10(num) + 1);
     }
+    
 }
